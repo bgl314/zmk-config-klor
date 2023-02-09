@@ -34,3 +34,6 @@ Polydactyl is the default layout. If you choose one of the other layouts you can
 
 - The encoder on the secondary side doesn't work yet. This is a limitation of ZMK.
 - Need to add the code for the Pixart Paw3204 trackball.
+
+TO build:
+west build -p -d ./build/left -b nice_nano_v2 -- -DZMK_CONFIG="C:/Users/bgl31/Documents/GitHub/zmk-config-klor/config/boards/shields/klor" -DSHIELD="klor_left"   
